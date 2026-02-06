@@ -7,6 +7,7 @@
           HM,
           user,
           host,
+          ...
         }:
         let
           unused = den.lib.take.unused [
